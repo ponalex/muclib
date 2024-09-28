@@ -7,10 +7,6 @@ TARGET =
 SRC = $(wildcard muclib/*.c)
 TEST_PREFIX = test_
 
-# .PHONY: all clean
-#
-# all: $(TARGET)
-
 # Rule for creating so file
 lib: $(SRC)
 	$(CC) $(CFLAGS) $(LIBS) -o muclib.so $(SRC)
