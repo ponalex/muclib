@@ -1,4 +1,5 @@
-my_test
 my_list.c
-main.c
-/docs
+test_*
+info.txt
+todo.txt
+test/*.o
