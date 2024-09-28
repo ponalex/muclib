@@ -411,7 +411,6 @@ long int read_element_linearmap(
                 linear_map *array,
                 long element_number,
                 map_element *element){
-    long int result = 0;
     void *new_element;
     long int number = _calc_position(array->array_size, element_number);
     if(number<0){
@@ -436,6 +435,7 @@ long int read_element_linearmap(
     element->data_len = array->elements[number].data_len;
     return element->data_len;
 }
+
 
 // OK version
 long int calc_empty_number(linear_map *array){
