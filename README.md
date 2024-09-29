@@ -11,4 +11,7 @@ As of now, this library includes the following data structures:
 - Singly Linked List
 - Dynamic Array
 
+## Information
+To get more information see header files in the **src** directory.
+
 Feel free to contribute or provide feedback!
