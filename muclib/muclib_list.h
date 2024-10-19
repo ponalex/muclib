@@ -41,12 +41,6 @@ typedef struct linked_list{
     size_t list_size;
 }linked_list;
 
-enum numbers{
-    null = 0,
-    one  = 1,
-    four = 4,
-    eight= 8
-};
 
 int init_linked_list(linked_list *list);
 
